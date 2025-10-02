@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+    
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logo"
+        android:contentDescription="Logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng bạn đến với ToDoList"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Đăng nhập"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#673AB7"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button Đăng ký -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Đăng ký"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F06292"/>
+</LinearLayout>

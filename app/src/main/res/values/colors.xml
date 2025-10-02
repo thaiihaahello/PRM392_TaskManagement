@@ -1,0 +1,10 @@
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryVariant">#7E57C2</color>
+    <color name="colorAccentPink">#F06292</color>
+    <color name="colorAccentTeal">#26C6DA</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDanger">#E53935</color>
+</resources>
